@@ -1,0 +1,54 @@
+.experienceWrapper{
+    width: 100%;
+    background-color: aquamarine;
+}
+
+.skills-section {
+    padding: 3rem 0;
+    background: #262626;
+    color: #e6e6e6;
+}
+
+.skills-div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skills-section h2 {
+    color: #e6e6e6;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+    margin-left: 1rem;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.skills-section .container h3 {
+    margin-left: 1rem;
+}
+
+.skills-card {
+    background: #1a1a1a;
+    color: #e6e6e6;
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+    border-radius: 1rem;
+    margin: 1rem 0.5rem;
+    transform: scale(0.98);
+}
+
+.skills-card:hover{
+    transform: scale(1);
+}
+
+.skills-card img {
+    height: 11rem;
+    width: 11rem;
+    margin-bottom: 1rem;
+}

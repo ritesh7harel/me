@@ -1,0 +1,54 @@
+.experience {
+    padding-bottom: 30px;
+    width: 100%;
+    background-color: black;
+}
+
+
+.title {
+    text-align: center;
+    color: #e6e6e6;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+    margin-left: 1rem;
+    font-size: 70px;
+    margin-bottom: 5px;
+    padding-top: 20px;
+}
+
+.subTitle {
+    color: white;
+    text-align: center;
+}
+
+.companies {
+    padding: 20px;
+}
+
+.company {
+    color: #e95d90;
+    font-size: 40px;
+}
+
+.role {
+    color: white;
+    font-size: 40px;
+}
+
+.details {
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.year {
+    color: #609bff;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+.icon{
+    color: white;
+    padding: 0 10px;
+}

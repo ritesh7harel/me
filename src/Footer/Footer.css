@@ -1,0 +1,17 @@
+.footer{
+    height: 100px;
+    background-color: black;
+}
+
+
+.msg{
+    color: white;
+    font-size: 12px;
+    padding-top: 60px;
+}
+
+.linkedIn{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+}
