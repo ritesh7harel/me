@@ -2,7 +2,7 @@ import './Education.css';
 
 const Education = () => {
     return (
-        <div className="education">
+        <div className="education" id="education">
             <div>
                 <div className="title">
                     Education
@@ -17,7 +17,6 @@ const Education = () => {
                 </div>
                 <div className="details">
                     <i className="fa fa-university icon"></i>Walchand College of Engineering, Sangli, Maharashtra , India.
-                    in india.
                 </div>
                 <div className="year">
                     <i className="fa fa-calendar icon"></i> June 2015 - May 2019

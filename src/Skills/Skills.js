@@ -15,7 +15,7 @@ import ReactNative from "../assets/react-native.png";
 
 const Skills = () => {
     return (
-        <div className="experienceWrapper">
+        <div className="experienceWrapper" id="skills">
             <div id="Skills" className="skills-section">
                 <div className="container">
                     <h2 className="skillHead">Skills</h2>

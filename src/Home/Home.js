@@ -21,7 +21,7 @@ const Home = () => {
                     I'm Ritesh Harel.
                 </div>
                 <div className="myName">
-                   Frontend Developer
+                   Frontend Engineer
                 </div>
                 <div className="myName lightName">
                     based in India

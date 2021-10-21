@@ -1,0 +1,34 @@
+.Nav {
+  list-style-type: none;
+  background: black;
+  margin: 0px;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  /* position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1; */
+}
+
+@media screen and (max-width: 690px) {
+  .Nav {
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+.Nav > li {
+  margin: 25px 20px;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.Nav > li:last-child {
+  margin-right: 80px;
+}
+
+.Nav > li > a {
+  text-decoration: none;
+  color: white;
+}
