@@ -37,6 +37,10 @@
   font-size: 40px;
 }
 
+.companyItem {
+  padding: 30px;
+}
+
 .role {
   color: white;
   font-size: 40px;
@@ -47,6 +51,7 @@
   font-size: 20px;
   padding: 10px;
 }
+
 .extraDetails {
   color: white;
   font-size: 20px;
@@ -99,3 +104,8 @@
   font-size: 26px;
   padding: 5px;
 }
+
+.mind {
+  color: #FE4F01 !important;
+}
+

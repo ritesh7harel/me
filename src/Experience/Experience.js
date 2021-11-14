@@ -53,26 +53,42 @@ const Experience = () => {
                 </div>
             </div>
             <div className="companies">
-                <div className="company">
-                    <i className="fa fa-desktop icon"></i> ThoughtWorks, <span className="role">UI Developer </span>
+                <div className="companyItem">
+                    <div className="mind company">
+                        <i className="fa fa-desktop icon"></i> Mindtickle <span className="role">SDE-1(Frontend) </span>
+                    </div>
+                    <div className="year">
+                        <i className="fa fa-calendar icon"></i> Oct 2021 - Present
+                    </div>
+                    <div className="details">
+                        <i className="fa fa-id-card-o icon"></i>I'm currently working with team for
+                        building learning apps for sales reps.
+                    </div>
                 </div>
-                <div className="year">
-                    <i className="fa fa-calendar icon"></i> June 2019 - Present
-                </div>
-                <div className="details">
-                    <i className="fa fa-id-card-o icon"></i>I'm currently working as UI developer on project of building
-                    applications for leading private bank
-                    in india.
-                </div>
-                <div className="extraDetails">
-                    • As a part of team, developing internet and mobile banking platform for India’s leading private bank.<br/>
-                    • Worked on React for building the web platform from scratch.<br/>
-                    • Worked on React Native for building mobile application from scratch.<br/>
-                    • Build scalable and performance oriented mobile app and responsive web app.<br/>
-                    • Followed best practices such as TDD, Unit Testing, Agile.<br/>
-                    • Contributed in building backend REST apis in Golang and deployment with docker,gocd.<br/>
-                    • As a part of another team, Worked on developing UI for one of the top Airline.<br/>
-                    • Worked on Stencil.js to create portable web components.<br/>
+                <div className="companyItem">
+                    <div className="company">
+                        <i className="fa fa-desktop icon"></i> ThoughtWorks <span className="role">Application Developer</span>
+                    </div>
+                    <div className="year">
+                        <i className="fa fa-calendar icon"></i> June 2019 - Oct 2021
+                    </div>
+                    <div className="details">
+                        <i className="fa fa-id-card-o icon"></i>I worked as UI developer on project of
+                        internet and mobile banking
+                        application for leading private bank
+                        in india.
+                    </div>
+                    <div className="extraDetails">
+                        • As a part of team, developing internet and mobile banking platform for India’s leading private
+                        bank.<br/>
+                        • Worked on React for building the web platform from scratch.<br/>
+                        • Worked on React Native for building mobile application from scratch.<br/>
+                        • Build scalable and performance oriented mobile app and responsive web app.<br/>
+                        • Followed best practices such as TDD, Unit Testing, Agile.<br/>
+                        • Contributed in building backend REST apis in Golang and deployment with docker,gocd.<br/>
+                        • As a part of another team, Worked on developing UI for one of the top Airline.<br/>
+                        • Worked on Stencil.js to create portable web components.<br/>
+                    </div>
                 </div>
             </div>
         </div>
