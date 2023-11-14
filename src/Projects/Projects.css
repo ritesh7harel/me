@@ -1,0 +1,111 @@
+.experience {
+  padding-bottom: 30px;
+  width: 100%;
+  background-color: black;
+}
+
+@media screen and (min-width: 1260px) {
+  .experience {
+    position: sticky;
+    top: 0;
+    z-index: 3;
+  }
+}
+
+.title {
+  text-align: center;
+  color: #e6e6e6;
+  letter-spacing: 0.2rem;
+  font-weight: bold;
+  margin-left: 1rem;
+  font-size: 70px;
+  margin-bottom: 5px;
+  padding-top: 20px;
+}
+
+.subTitle {
+  color: white;
+  text-align: center;
+}
+
+.companies {
+  padding: 20px;
+}
+
+.company {
+  color: #e95d90;
+  font-size: 40px;
+}
+
+.companyItem {
+  padding: 30px;
+}
+
+.role {
+  color: white;
+  font-size: 40px;
+}
+
+.details {
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.extraDetails {
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.year {
+  color: #609bff;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.icon {
+  color: white;
+  padding: 0 10px;
+}
+
+.totalExperience {
+  display: flex;
+  width: 260px;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.outer {
+  height: 80px;
+  width: 100px;
+  background-color: white;
+  padding: 8px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.inner {
+  height: 50px;
+  width: 70px;
+  background-color: #262626;
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.label {
+  color: #262626;
+  font-size: 26px;
+  padding: 5px;
+}
+
+.mind {
+  color: #FE4F01 !important;
+}
+

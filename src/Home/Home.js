@@ -14,7 +14,8 @@ const Home = () => {
         <div className="app">
             <div className={`leftView ${showAnimation && 'animateStart'}`}>
                 <div className="myPhotoWrapper">
-                    <Cube/>
+                    {/* <Cube/> */}
+                    <div className="myPhoto"><img src={MyImage} alt="profile" className="bigImage"/></div>
                 </div>
             </div>
             <div className={`rightView ${showAnimation && 'animateStartAgain'}`}>

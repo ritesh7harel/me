@@ -55,7 +55,7 @@ const Experience = () => {
             <div className="companies">
                 <div className="companyItem">
                     <div className="mind company">
-                        <i className="fa fa-desktop icon"></i> Mindtickle <span className="role">SDE-1(Frontend) </span>
+                        <i className="fa fa-desktop icon"></i> Mindtickle <span className="role">SDE-2(Frontend) </span>
                     </div>
                     <div className="year">
                         <i className="fa fa-calendar icon"></i> Oct 2021 - Present
@@ -63,6 +63,13 @@ const Experience = () => {
                     <div className="details">
                         <i className="fa fa-id-card-o icon"></i>I'm currently working with team for
                         building learning apps for sales reps.
+                    </div>
+                    <div className="extraDetails">
+                        • As a part of team, migrated product frontend code from Backbone technology code to React tech stack.<br/>
+                        • Worked on React for building the web platform from scratch.<br/>
+                        • Worked on performance and improved LCP of page<br/>
+                        • Followed best practices such as TDD, Unit Testing, Agile.<br/>
+                        • Contributed in backend as Worked on AWS lamba<br/>
                     </div>
                 </div>
                 <div className="companyItem">
